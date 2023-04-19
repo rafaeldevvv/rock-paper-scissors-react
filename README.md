@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [here](https://github.com/rafaeldevvv/rock-paper-scissors-react)
-- Live Site URL: [here](https://your-live-site-url.com)
+- Live Site URL: [here](https://rafaeldevvv.github.io/rock-paper-scissors-react/)
 
 ## My process
 
