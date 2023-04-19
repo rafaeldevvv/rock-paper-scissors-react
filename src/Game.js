@@ -1,5 +1,5 @@
 import { getRandomItem } from "./utilities.js";
-const { useState } = React;
+import {useState} from 'react';
 
 export default function Game({ gestures, onEnd }) {
   const [status, setStatus] = useState("picking");

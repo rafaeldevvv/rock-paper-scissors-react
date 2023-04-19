@@ -5,8 +5,8 @@ import {
 } from "./utilities.js";
 import showRules from "./showRules.js";
 import Game from "./Game.js";
-const { useState } = React;
-const { createRoot } = ReactDOM;
+import {useState} from 'react';
+import {createRoot} from 'react-dom'
 
 function App() {
   const [score, setScore] = useState(getScore() || 0);
