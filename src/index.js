@@ -5,8 +5,10 @@ import {
 } from "./utilities.js";
 import showRules from "./showRules.js";
 import Game from "./Game.js";
-import {useState} from 'react';
-import {createRoot} from 'react-dom'
+import React from "react";
+import ReactDOM from "react-dom";
+const { useState } = React;
+const { createRoot } = ReactDOM;
 
 function App() {
   const [score, setScore] = useState(getScore() || 0);
